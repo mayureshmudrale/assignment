@@ -1,0 +1,133 @@
+.header{
+    
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 1;
+    border-bottom: 5px;
+    align-content: space-between;
+   width: 100%;
+   border: 5px;
+   border-color: black;
+   background-color:white;
+   
+    
+}
+.test{
+   height: 100px;
+   width: 100px;
+   position: relative;
+   
+  
+   
+}
+
+.header_search_icon{
+    color: gray;
+    height:35px;
+    width: 30px;
+    background-color: rgba(194, 186, 186, 0.3);
+
+    
+}
+
+.header__search{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+
+
+}
+.header__searchInput2{
+    border:none;
+    outline: none;
+    background-color: rgba(194, 186, 186, 0.3);
+    border-radius: 5px;
+    
+    
+}
+
+.header__searchInput{
+    
+  height: 35px;
+  border-radius: 5px;
+  position: relative;
+  background-color: rgba(194, 186, 186, 0.3);
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  border:none;
+ 
+    
+    
+}
+/* .header__searchInput:hover{
+    background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+} */
+.header__add{
+    background-color: rgb(27, 102, 200);
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+} 
+.bell{
+    height:25px;
+    width:25px;
+    padding: 10px;
+}
+.chat_option{
+    height: 25px;
+    width:25px;
+    padding: 10px;
+}
+.header__user_row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.username_avatar{
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+.username_avatar>text{
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.username_avatar>img{
+   height:50px;
+   padding: auto;
+   margin: 5px;
+}
+.logo{
+    margin:2px;
+    width:fit-content;
+    height: fit-content;
+}
+.logo>img{
+    height: 50px;
+}
+.username{
+    align-items: center;
+    font-style: italic;
+    font-size: medium;
+    padding: 5px;
+}
+
+.dropdown>img{
+   
+}
+
+

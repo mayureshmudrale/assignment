@@ -1,0 +1,25 @@
+.Menu_icon{
+    background-color: rgb(49, 126, 226);
+    color: white;
+    padding: 10px;
+}
+.Menu_icon>svg{
+    height: 25px;
+}
+.Sidebar{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 126, 226);
+    align-items:center ;
+    position: sticky;
+}
+.menu_home{
+    padding: 15px;
+}
+.menu_home:hover{
+    background-color: rgb(27, 102, 200);
+}
+.menu_home>button:active{
+    outline: none;
+}
