@@ -7,19 +7,12 @@ import chat from './Assets/IMG/Chat - Iconly---Bold@2x.png';
 import useravatar from './Assets/IMG/Placeholders/Profile/Picture@2x.png'
 import dropdown from './Assets/IMG/Arrow---Down-2 - Iconly---Bold.png'
 import { CSSTransition } from 'react-transition-group';
+import Header2 from './Header2';
 
 function Header() {
-    const [state,setState]=useState();
+    
       
-    const toggle=()=>{
-       if(state===1){
-            setState(0);
-       }
-       else{
-           setState(1);
-       } 
-    }
-    console.log(state);
+    
 
  
     
@@ -49,12 +42,12 @@ function Header() {
             
             <div className="header__user_row">
                     
-                    <img  src={notfication} alt="notification" onClick={toggle} className="bell"/>
+                    <Header2/>
                     {/* {dropdown()} */}
                    
 
                 
-                <img src={chat} className="chat_option" alt="chat" />
+                {/* <img src={chat} className="chat_option" alt="chat" /> */}
                 <div className="username_avatar">
                     <div className="username">
                         <text>
@@ -65,7 +58,7 @@ function Header() {
                     
                     <img  src={useravatar} alt="avatar"  />
                     <div className="userdropdown">
-                        <img  src={dropdown} alt="dropdown" className="dropdown"  />
+                        <img  src={dropdown} alt="dropdown"   />
                     </div>
                     
                 </div>
